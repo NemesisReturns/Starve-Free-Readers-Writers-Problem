@@ -31,7 +31,7 @@ writing is performed
 .
 signal(wrt);
 ```
-In the above code, mutex and wrt are emaphores with initial values as 1 and 1 respectively and readcount is the variable for counting the current number of readers reading the file with initial value as 0. <br />
+In the above code, mutex and wrt are semaphores with initial values as 1 and 1 respectively and readcount is the variable for counting the current number of readers reading the file with initial value as 0. <br />
 ### The psedocode for semaphores is given below(As given in slides) :
 ```cpp
 typedef struct{
